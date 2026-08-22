@@ -25,12 +25,12 @@ TNoA *criaNo(char ch) {
     return novo;
 }
 
-int main(void) {
-    TNoA *raiz;
-    raiz = criaNo('A');
-    raiz->esq = criaNo('B');
-    raiz->dir = criaNo('C');
-    raiz->dir->esq = criaNo('D');
-    raiz->dir->dir = criaNo('E');
-    imprime(raiz, 0);
-};
+//int main(void) {
+    //TNoA *raiz;
+    //raiz = criaNo('A');
+    //raiz->esq = criaNo('B');
+    //raiz->dir = criaNo('C');
+    //raiz->dir->esq = criaNo('D');
+    //raiz->dir->dir = criaNo('E');
+    //imprime(raiz, 0);
+//};
